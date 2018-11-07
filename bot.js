@@ -21,7 +21,7 @@ client.on('ready', () => {
     console.log(`[ ] ${client.users.size}`)
 });
 client.on('ready', () => {
-     client.user.setActivity("you",{type: 'WATCHING'});
+     client.user.setActivity("By Ahmed",{type: 'WATCHING'});
 
 });
 
