@@ -267,7 +267,7 @@ ${prefix}vol ⇏ لتغيير درجة الصوت 100 - 0
 ${prefix}leave⇏ لإخرآج البوت من الروم
 ${prefix}np ⇏ لمعرفة الأغنية المشغلة حآليا
 ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
- `)
+ By [@أحمد#3933]`)
    message.channel.sendEmbed(embed)
    
    }
