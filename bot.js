@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivity("1help | Games WorlD",{type: 'WATCHING'})
+   client.user.setActivity("+help | By أحمد",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -35,9 +35,9 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
  
-
  
-var prefix = "1" 
+ 
+var prefix = "+" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
@@ -267,6 +267,7 @@ ${prefix}vol ⇏ لتغيير درجة الصوت 100 - 0
 ${prefix}leave⇏ لإخرآج البوت من الروم
 ${prefix}np ⇏ لمعرفة الأغنية المشغلة حآليا
 ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
+ `)
    message.channel.sendEmbed(embed)
    
    }
